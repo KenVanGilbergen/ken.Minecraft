@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Minecraft", "ken.Minecraft\ken.Minecraft.csproj", "{E07FDB9D-8F4F-45FD-BC72-B25B193B09B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Minecraft.Tests", "ken.Minecraft.Tests\ken.Minecraft.Tests.csproj", "{18F6648C-0E59-4BF0-A06A-FE708BE1E98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Minecraft.Nbt", "ken.Minecraft.Nbt\ken.Minecraft.Nbt.csproj", "{BF5D8260-C7C2-4866-BB0C-99D5E9FBF812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Minecraft.Nbt.Tests", "ken.Minecraft.Nbt.Tests\ken.Minecraft.Nbt.Tests.csproj", "{9F6916E2-283F-479D-B631-675C267B82EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A499E119-E133-4FF8-97C2-FD03FFF9E0E5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E07FDB9D-8F4F-45FD-BC72-B25B193B09B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07FDB9D-8F4F-45FD-BC72-B25B193B09B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07FDB9D-8F4F-45FD-BC72-B25B193B09B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07FDB9D-8F4F-45FD-BC72-B25B193B09B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F6648C-0E59-4BF0-A06A-FE708BE1E98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F6648C-0E59-4BF0-A06A-FE708BE1E98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F6648C-0E59-4BF0-A06A-FE708BE1E98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F6648C-0E59-4BF0-A06A-FE708BE1E98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5D8260-C7C2-4866-BB0C-99D5E9FBF812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5D8260-C7C2-4866-BB0C-99D5E9FBF812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5D8260-C7C2-4866-BB0C-99D5E9FBF812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5D8260-C7C2-4866-BB0C-99D5E9FBF812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6916E2-283F-479D-B631-675C267B82EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6916E2-283F-479D-B631-675C267B82EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6916E2-283F-479D-B631-675C267B82EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6916E2-283F-479D-B631-675C267B82EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
